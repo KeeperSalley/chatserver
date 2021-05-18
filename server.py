@@ -20,7 +20,7 @@ while not quit:
 
 		itsatime = time.strftime("%Y-%m-%d-%H.%M.%S", time.localtime())
 
-		print("["+addr[0]+"]=["+str(addr[1])+"]=["+itsatime+"]/",end="")
+		print("["+addr[0]+"]=["+str(addr[1])+"]=["+itsatime+"]/", end = "")
 		print(data.decode("utf-8"))
 
 		for client in clients:
